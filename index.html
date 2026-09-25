@@ -1,0 +1,1070 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>MAPS Accounting Services | Outsourced Accounting & Finance</title>
+
+<meta name="description" content="MAPS Accounting Services provides outsourced accounting, bookkeeping, financial reporting, tax support and finance solutions for growing businesses.">
+
+<style>
+:root{
+  --ink:#101010;
+  --muted:#646464;
+  --yellow:#f5c400;
+  --paper:#fff;
+  --soft:#f6f6f3;
+  --line:#e8e8e3;
+  --max:1180px;
+}
+
+*{
+  box-sizing:border-box;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  margin:0;
+  font-family:Arial,Helvetica,sans-serif;
+  color:var(--ink);
+  background:var(--paper);
+  line-height:1.55;
+}
+
+a{
+  color:inherit;
+  text-decoration:none;
+}
+
+.wrap{
+  max-width:var(--max);
+  margin:auto;
+  padding:0 28px;
+}
+
+.nav{
+  height:82px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  border-bottom:1px solid var(--line);
+  background:#fff;
+}
+
+.brand{
+  font-weight:900;
+  letter-spacing:-1px;
+  font-size:25px;
+}
+
+.brand span{
+  display:block;
+  font-size:10px;
+  letter-spacing:2.5px;
+  font-weight:700;
+  margin-top:-3px;
+}
+
+.navlinks{
+  display:flex;
+  gap:28px;
+  font-size:14px;
+  font-weight:700;
+}
+
+.navlinks a:hover{
+  opacity:.55;
+}
+
+.btn{
+  display:inline-block;
+  background:var(--yellow);
+  padding:14px 20px;
+  font-weight:800;
+  border-radius:3px;
+}
+
+.btn.dark{
+  background:var(--ink);
+  color:#fff;
+}
+
+.hero{
+  background:linear-gradient(135deg,#101010 0%,#191919 62%,#242424 100%);
+  color:#fff;
+  padding:100px 0 95px;
+}
+
+.hero-grid{
+  display:grid;
+  grid-template-columns:1.15fr .85fr;
+  gap:70px;
+  align-items:center;
+}
+
+.eyebrow{
+  font-size:12px;
+  letter-spacing:3px;
+  font-weight:800;
+  color:var(--yellow);
+  text-transform:uppercase;
+}
+
+.hero h1{
+  font-size:clamp(48px,6vw,82px);
+  line-height:.98;
+  letter-spacing:-4px;
+  margin:18px 0 25px;
+  max-width:800px;
+}
+
+.hero h1 em{
+  color:var(--yellow);
+  font-style:normal;
+}
+
+.hero p{
+  font-size:19px;
+  color:#d5d5d5;
+  max-width:650px;
+}
+
+.hero-actions{
+  display:flex;
+  gap:12px;
+  margin-top:32px;
+  flex-wrap:wrap;
+}
+
+.hero-card{
+  border:1px solid #3b3b3b;
+  padding:30px;
+  background:rgba(255,255,255,.03);
+}
+
+.hero-card .num{
+  font-size:48px;
+  font-weight:900;
+  color:var(--yellow);
+  line-height:1;
+}
+
+.hero-card h3{
+  font-size:20px;
+  margin:14px 0 8px;
+}
+
+.hero-card p{
+  font-size:14px;
+  margin:0;
+  color:#bcbcbc;
+}
+
+.section{
+  padding:92px 0;
+}
+
+.section.soft{
+  background:var(--soft);
+}
+
+.section-head{
+  display:flex;
+  justify-content:space-between;
+  gap:40px;
+  align-items:end;
+  margin-bottom:48px;
+}
+
+.section h2{
+  font-size:48px;
+  letter-spacing:-2px;
+  line-height:1.05;
+  margin:8px 0;
+}
+
+.lead{
+  max-width:520px;
+  color:var(--muted);
+  font-size:17px;
+}
+
+.services{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:1px;
+  background:var(--line);
+  border:1px solid var(--line);
+}
+
+.service{
+  background:#fff;
+  padding:34px;
+  min-height:220px;
+}
+
+.service .icon{
+  font-size:24px;
+  font-weight:900;
+  margin-bottom:24px;
+}
+
+.service h3{
+  font-size:20px;
+  margin:0 0 10px;
+}
+
+.service p{
+  color:var(--muted);
+  font-size:14px;
+  margin:0;
+}
+
+.about-grid{
+  display:grid;
+  grid-template-columns:.85fr 1.15fr;
+  gap:80px;
+}
+
+.statement{
+  font-size:35px;
+  line-height:1.15;
+  font-weight:800;
+  letter-spacing:-1.3px;
+}
+
+.ticks{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:18px;
+  margin-top:30px;
+}
+
+.tick{
+  border-top:2px solid var(--yellow);
+  padding-top:12px;
+  font-weight:800;
+}
+
+.industries{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:14px;
+}
+
+.industry{
+  border:1px solid var(--line);
+  padding:22px;
+  background:#fff;
+  font-weight:800;
+}
+
+.process{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:18px;
+}
+
+.step{
+  padding:28px;
+  border-top:4px solid var(--yellow);
+  background:#fff;
+}
+
+.step b{
+  font-size:12px;
+  letter-spacing:2px;
+}
+
+.step h3{
+  margin:12px 0 7px;
+}
+
+.step p{
+  color:var(--muted);
+  font-size:14px;
+}
+
+.cta{
+  background:var(--yellow);
+  padding:75px 0;
+}
+
+.cta-inner{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:30px;
+}
+
+.cta h2{
+  font-size:50px;
+  line-height:1;
+  margin:0;
+  letter-spacing:-2px;
+}
+
+.contact{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:60px;
+}
+
+.contact-box{
+  border-top:1px solid var(--line);
+  padding:22px 0;
+}
+
+.contact-box small{
+  display:block;
+  text-transform:uppercase;
+  letter-spacing:2px;
+  font-weight:800;
+  color:var(--muted);
+  margin-bottom:5px;
+}
+
+.footer{
+  background:#101010;
+  color:#fff;
+  padding:45px 0;
+}
+
+.footer-inner{
+  display:flex;
+  justify-content:space-between;
+  gap:30px;
+}
+
+.footer p{
+  color:#aaa;
+  font-size:13px;
+}
+
+.mini{
+  font-size:12px;
+  color:#aaa;
+  margin-top:20px;
+}
+
+/* WhatsApp Button */
+
+.whatsapp{
+  position:fixed;
+  right:22px;
+  bottom:22px;
+  z-index:1000;
+  background:#25D366;
+  color:#fff;
+  width:62px;
+  height:62px;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:900;
+  font-size:11px;
+  text-align:center;
+  box-shadow:0 6px 20px rgba(0,0,0,.25);
+  transition:.2s;
+}
+
+.whatsapp:hover{
+  transform:scale(1.08);
+}
+
+/* Mobile */
+
+@media(max-width:850px){
+
+  .navlinks{
+    display:none;
+  }
+
+  .hero-grid,
+  .about-grid,
+  .contact{
+    grid-template-columns:1fr;
+  }
+
+  .services{
+    grid-template-columns:1fr 1fr;
+  }
+
+  .industries{
+    grid-template-columns:1fr 1fr;
+  }
+
+  .process{
+    grid-template-columns:1fr 1fr;
+  }
+
+  .section-head,
+  .cta-inner,
+  .footer-inner{
+    display:block;
+  }
+
+  .section-head .lead{
+    margin-top:20px;
+  }
+
+  .hero{
+    padding:75px 0;
+  }
+
+  .hero h1{
+    letter-spacing:-2px;
+  }
+
+  .section h2,
+  .cta h2{
+    font-size:40px;
+  }
+
+  .hero-card{
+    margin-top:10px;
+  }
+}
+
+@media(max-width:520px){
+
+  .services,
+  .industries,
+  .process,
+  .ticks{
+    grid-template-columns:1fr;
+  }
+
+  .wrap{
+    padding:0 20px;
+  }
+
+  .hero h1{
+    font-size:48px;
+  }
+
+  .section{
+    padding:65px 0;
+  }
+
+  .nav .btn{
+    display:none;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header class="nav">
+
+  <div class="wrap"
+       style="width:100%;display:flex;align-items:center;justify-content:space-between">
+
+    <a class="brand" href="#home">
+      MAPS
+      <span>ACCOUNTING SERVICES</span>
+    </a>
+
+    <nav class="navlinks">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#industries">Industries</a>
+      <a href="#why">Why MAPS</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a class="btn" href="#contact">
+      Book a Consultation
+    </a>
+
+  </div>
+
+</header>
+
+
+<main id="home">
+
+<!-- HERO -->
+
+<section class="hero">
+
+  <div class="wrap hero-grid">
+
+    <div>
+
+      <div class="eyebrow">
+        Outsourced Accounting & Finance
+      </div>
+
+      <h1>
+        Your numbers.<br>
+        <em>Our expertise.</em>
+      </h1>
+
+      <p>
+        MAPS helps businesses take control of their finances with reliable
+        accounting, reporting and outsourced finance solutions built around
+        the way they operate.
+      </p>
+
+      <div class="hero-actions">
+
+        <a class="btn" href="#contact">
+          Let's Talk
+        </a>
+
+        <a class="btn dark" href="#services">
+          Explore Services
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <div class="hero-card">
+
+      <div class="num">01</div>
+
+      <h3>
+        More than bookkeeping.
+      </h3>
+
+      <p>
+        We become an extension of your team—bringing structure,
+        visibility and financial discipline to your day-to-day operations.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section class="section" id="about">
+
+  <div class="wrap about-grid">
+
+    <div>
+
+      <div class="eyebrow">
+        About MAPS
+      </div>
+
+      <div class="statement">
+        A dependable finance function should make business decisions
+        easier—not harder.
+      </div>
+
+    </div>
+
+
+    <div>
+
+      <p class="lead">
+        MAPS Accounting Services provides outsourced accounting and finance
+        support for businesses that want accurate records, timely reporting
+        and practical financial insight without building a large in-house team.
+      </p>
+
+      <p>
+        Our approach combines disciplined accounting processes with
+        management-focused reporting, helping business owners and management
+        understand what is happening financially and act with confidence.
+      </p>
+
+      <div class="ticks">
+
+        <div class="tick">
+          Accuracy & control
+        </div>
+
+        <div class="tick">
+          Timely reporting
+        </div>
+
+        <div class="tick">
+          Confidentiality
+        </div>
+
+        <div class="tick">
+          Practical support
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- SERVICES -->
+
+<section class="section soft" id="services">
+
+  <div class="wrap">
+
+    <div class="section-head">
+
+      <div>
+
+        <div class="eyebrow">
+          What We Do
+        </div>
+
+        <h2>
+          Finance support that<br>
+          fits your business.
+        </h2>
+
+      </div>
+
+      <p class="lead">
+        From day-to-day bookkeeping to management reporting and finance
+        operations, MAPS gives you the support you need at each stage of growth.
+      </p>
+
+    </div>
+
+
+    <div class="services">
+
+      <article class="service">
+        <div class="icon">01</div>
+        <h3>Outsourced Accounting</h3>
+        <p>
+          End-to-end accounting support tailored to your business processes,
+          systems and reporting needs.
+        </p>
+      </article>
+
+      <article class="service">
+        <div class="icon">02</div>
+        <h3>Bookkeeping</h3>
+        <p>
+          Accurate transaction recording, reconciliations, ledgers and
+          month-end close support.
+        </p>
+      </article>
+
+      <article class="service">
+        <div class="icon">03</div>
+        <h3>Financial Reporting</h3>
+        <p>
+          Clear monthly management accounts and financial reports designed
+          for decision-making.
+        </p>
+      </article>
+
+      <article class="service">
+        <div class="icon">04</div>
+        <h3>VAT & Tax Support</h3>
+        <p>
+          Organized tax records and practical support for VAT and corporate
+          tax requirements.
+        </p>
+      </article>
+
+      <article class="service">
+        <div class="icon">05</div>
+        <h3>AP & AR</h3>
+        <p>
+          Invoice processing, supplier balances, customer collections and
+          working-capital visibility.
+        </p>
+      </article>
+
+      <article class="service">
+        <div class="icon">06</div>
+        <h3>Payroll</h3>
+        <p>
+          Structured payroll processing and related accounting support with
+          confidentiality and control.
+        </p>
+      </article>
+
+      <article class="service">
+        <div class="icon">07</div>
+        <h3>Budgeting & Forecasting</h3>
+        <p>
+          Budgets, cash-flow planning and forecasts that connect financial
+          targets to operations.
+        </p>
+      </article>
+
+      <article class="service">
+        <div class="icon">08</div>
+        <h3>Finance Advisory</h3>
+        <p>
+          Practical financial analysis and support for owners and management
+          facing important decisions.
+        </p>
+      </article>
+
+      <article class="service">
+        <div class="icon">09</div>
+        <h3>Systems & Odoo Support</h3>
+        <p>
+          Accounting-system setup, process improvement and ongoing support
+          to strengthen financial controls.
+        </p>
+      </article>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- INDUSTRIES -->
+
+<section class="section" id="industries">
+
+  <div class="wrap">
+
+    <div class="section-head">
+
+      <div>
+
+        <div class="eyebrow">
+          Industries
+        </div>
+
+        <h2>
+          Built for real businesses.
+        </h2>
+
+      </div>
+
+      <p class="lead">
+        Every industry has different transactions, controls and reporting
+        needs. We adapt our processes to your operation.
+      </p>
+
+    </div>
+
+
+    <div class="industries">
+
+      <div class="industry">
+        Hospitality & Restaurants
+      </div>
+
+      <div class="industry">
+        Retail & E-commerce
+      </div>
+
+      <div class="industry">
+        Construction & Real Estate
+      </div>
+
+      <div class="industry">
+        Trading & Manufacturing
+      </div>
+
+      <div class="industry">
+        Professional Services
+      </div>
+
+      <div class="industry">
+        Technology & Startups
+      </div>
+
+      <div class="industry">
+        Healthcare & Education
+      </div>
+
+      <div class="industry">
+        Logistics & Other SMEs
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- WHY MAPS -->
+
+<section class="section soft" id="why">
+
+  <div class="wrap">
+
+    <div class="section-head">
+
+      <div>
+
+        <div class="eyebrow">
+          Why MAPS
+        </div>
+
+        <h2>
+          Accounting with a<br>
+          management mindset.
+        </h2>
+
+      </div>
+
+      <p class="lead">
+        Our goal is not simply to close the books. It is to give management
+        dependable financial information and stronger control over the business.
+      </p>
+
+    </div>
+
+
+    <div class="process">
+
+      <div class="step">
+
+        <b>01 / UNDERSTAND</b>
+
+        <h3>
+          Learn your business
+        </h3>
+
+        <p>
+          We understand your operations, systems, reporting requirements
+          and pain points.
+        </p>
+
+      </div>
+
+
+      <div class="step">
+
+        <b>02 / STRUCTURE</b>
+
+        <h3>
+          Build the process
+        </h3>
+
+        <p>
+          We organize responsibilities, controls and accounting workflows
+          around your needs.
+        </p>
+
+      </div>
+
+
+      <div class="step">
+
+        <b>03 / REPORT</b>
+
+        <h3>
+          Create visibility
+        </h3>
+
+        <p>
+          We turn transactions into clear financial information that
+          management can use.
+        </p>
+
+      </div>
+
+
+      <div class="step">
+
+        <b>04 / SUPPORT</b>
+
+        <h3>
+          Stay alongside you
+        </h3>
+
+        <p>
+          We provide ongoing accounting and finance support as your
+          business evolves.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- CTA -->
+
+<section class="cta">
+
+  <div class="wrap cta-inner">
+
+    <div>
+
+      <div class="eyebrow" style="color:#111">
+        Let's Work Together
+      </div>
+
+      <h2>
+        Ready to put your<br>
+        finances in order?
+      </h2>
+
+    </div>
+
+    <a class="btn dark" href="#contact">
+      Book a Consultation →
+    </a>
+
+  </div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section class="section" id="contact">
+
+  <div class="wrap contact">
+
+    <div>
+
+      <div class="eyebrow">
+        Contact MAPS
+      </div>
+
+      <h2>
+        Let's talk about<br>
+        your business.
+      </h2>
+
+      <p class="lead">
+        Tell us what you need help with and we'll get back to you to discuss
+        the right accounting and finance setup for your business.
+      </p>
+
+    </div>
+
+
+    <div>
+
+      <div class="contact-box">
+
+        <small>Email</small>
+
+        <a href="mailto:marilyne@mapslb.com">
+          marilyne@mapslb.com
+        </a>
+
+      </div>
+
+
+      <div class="contact-box">
+
+        <small>Phone & WhatsApp</small>
+
+        <a href="tel:+96171697008">
+          +961 71 697 008
+        </a>
+
+      </div>
+
+
+      <div class="contact-box">
+
+        <small>Website</small>
+
+        <a href="https://mapslb.com">
+          mapslb.com
+        </a>
+
+      </div>
+
+
+      <div class="contact-box">
+
+        <small>Consultations</small>
+
+        <span>
+          By appointment
+        </span>
+
+      </div>
+
+
+      <div class="contact-box">
+
+        <small>Service</small>
+
+        <span>
+          Lebanon & international clients
+        </span>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+</main>
+
+
+<!-- FOOTER -->
+
+<footer class="footer">
+
+  <div class="wrap footer-inner">
+
+    <div>
+
+      <div class="brand">
+        MAPS
+        <span>ACCOUNTING SERVICES</span>
+      </div>
+
+      <p>
+        Your trusted outsourced finance partner.
+      </p>
+
+    </div>
+
+
+    <div>
+
+      <p>
+        © 2026 MAPS Accounting Services. All rights reserved.
+      </p>
+
+      <div class="mini">
+        Accounting • Reporting • Tax Support • Finance
+      </div>
+
+    </div>
+
+  </div>
+
+</footer>
+
+
+<!-- WHATSAPP BUTTON -->
+
+<a
+  class="whatsapp"
+  href="https://wa.me/96171697008"
+  target="_blank"
+  rel="noopener"
+  aria-label="Chat with MAPS on WhatsApp">
+
+  WhatsApp
+
+</a>
+
+</body>
+</html>
